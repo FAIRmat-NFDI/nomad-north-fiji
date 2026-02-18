@@ -1,12 +1,29 @@
+#
+# Copyright The NOMAD Authors.
+#
+# This file is part of NOMAD. See https://nomad-lab.eu for further info.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
 from nomad.config.models.north import NORTHTool
 from nomad.config.models.plugins import NorthToolEntryPoint
 
 fiji = NORTHTool(
-    short_description='Jupyter Notebook server in NOMAD NORTH for NOMAD plugin nomad-north-fiji.',
     image='ghcr.io/FAIRmat-NFDI/nomad-north-fiji:latest',
-    description='Jupyter Notebook server in NOMAD NORTH for NOMAD plugin nomad-north-fiji.',
+    description="""### **fiji**: Use FIJI to visualize and or analyze your images in NOMAD""",
+    short_description='Use FIJI to visualize and or analyze your images in NOMAD.',
     external_mounts=[],
-    file_extensions=['ipynb'],
+    file_extensions=['tif, tiff, jpeg, png, gif, bmp, avi'],
     icon='logo/jupyter.svg',
     image_pull_policy='Always',
     default_url='/lab',
@@ -19,5 +36,5 @@ fiji = NORTHTool(
 )
 
 north_tool_entry_point = NorthToolEntryPoint(
-    id_url_safe='nomad_north_fiji_fiji', north_tool=fiji
+    id_url_safe='nomad_north_fiji', north_tool=fiji
 )

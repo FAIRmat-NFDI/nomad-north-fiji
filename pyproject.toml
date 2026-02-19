@@ -13,7 +13,7 @@ classifiers = [
     "License :: OSI Approved :: Apache Software License",
 ]
 name = "nomad-north-fiji"
-description = "NOMAD NORTH tool for fiji"
+description = "NOMAD NORTH plugin for fiji"
 version = "0.1.0"
 readme = "README.md"
 requires-python = ">=3.10"

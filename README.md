@@ -1,6 +1,6 @@
 # nomad-north-fiji
 
-NOMAD NORTH tool for fiji
+NOMAD NORTH plugin for fiji
 
 This `nomad` plugin was generated with `Cookiecutter` along with `@nomad`'s [`cookiecutter-nomad-plugin`](https://github.com/FAIRmat-NFDI/cookiecutter-nomad-plugin) template.
 

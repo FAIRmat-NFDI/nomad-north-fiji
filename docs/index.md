@@ -1,6 +1,6 @@
 # Welcome to the `nomad-north-fiji` documentation
 
-NOMAD NORTH tool for fiji
+NOMAD NORTH plugin for fiji
 
 ## Introduction
 

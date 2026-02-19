@@ -23,5 +23,5 @@ RUN wget https://downloads.imagej.net/fiji/archive/stable/20250808-2217/fiji-sta
  && unzip fiji-stable-linux64-jdk.zip \
  && rm -f fiji-stable-linux64-jdk.zip
 
-COPY --chown=${NB_UID}:${NB_GID} config/Fiji.desktop ${HOME}/.config/autostart/Fiji.desktop
-COPY --chown=${NB_UID}:${NB_GID} config/Fiji.desktop ${HOME}/Desktop/Fiji.desktop
+COPY --chown=${NB_UID}:${NB_GID} "src/nomad_north_fiji/north_tools/fiji/config/Fiji.desktop" "${HOME}/.config/autostart/Fiji.desktop"
+COPY --chown=${NB_UID}:${NB_GID} "src/nomad_north_fiji/north_tools/fiji/config/Fiji.desktop" "${HOME}/Desktop/Fiji.desktop"

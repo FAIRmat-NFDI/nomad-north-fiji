@@ -2,7 +2,6 @@
 Version=1.0
 Type=Application
 Name=Fiji
-Comment=
 Exec=/home/jovyan/Fiji.app/ImageJ-linux64
 Icon=/home/jovyan/Fiji.app/images/icon.png
 Path=/home/jovyan

@@ -11,9 +11,9 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 USER root
 
 RUN apt update \
- && apt-get install -y \
+    && apt-get install --no-install-recommends -y \
         unzip \
- && rm -rf /var/lib/apt/lists/*
+    && rm -rf /var/lib/apt/lists/*
 
 # Switch back to jovyan to avoid accidental container runs as root
 USER ${NB_UID}

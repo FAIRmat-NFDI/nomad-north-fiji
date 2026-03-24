@@ -19,7 +19,7 @@ RUN apt update \
 USER ${NB_UID}
 WORKDIR "${HOME}"
 
-RUN wget https://downloads.imagej.net/fiji/archive/stable/20250808-2217/fiji-stable-linux64-jdk.zip \
+RUN wget https://downloads.imagej.net/fiji/archive/stable/20260307-1417/fiji-stable-linux64-jdk.zip \
  && unzip fiji-stable-linux64-jdk.zip \
  && rm -f fiji-stable-linux64-jdk.zip
 

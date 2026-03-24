@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Fiji
+Exec=/home/jovyan/Fiji.app/ImageJ-linux64
+Icon=/home/jovyan/Fiji.app/images/icon.png
+Path=/home/jovyan
+Terminal=false
+StartupNotify=false

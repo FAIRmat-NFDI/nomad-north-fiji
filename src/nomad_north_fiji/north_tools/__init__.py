@@ -1,7 +1,7 @@
 from nomad.config.models.north import NORTHTool
 from nomad.config.models.plugins import NorthToolEntryPoint
 
-fiji = NORTHTool(
+fiji_north_tool = NORTHTool(
     short_description='Use FIJI to visualize and analyze your images in NOMAD.',
     image='ghcr.io/fairmat-nfdi/nomad-north-fiji:main',
     description="""### **FIJI**:
@@ -22,7 +22,7 @@ fiji = NORTHTool(
     display_name='fiji',
 )
 
-north_entry_point = NorthToolEntryPoint(
-    id_url_safe='nomad-north-fiji-fiji',
-    north_tool=fiji,
+fiji = NorthToolEntryPoint(
+    id_url_safe='fiji',
+    north_tool=fiji_north_tool,
 )

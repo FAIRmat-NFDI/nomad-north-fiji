@@ -10,7 +10,7 @@ fiji_north_tool = NORTHTool(
 
     [Research article about the software](https://doi.org/10.1038/nmeth.2019)""",
     external_mounts=[],
-    file_extensions=['tif, tiff, jpeg, png, gif, bmp, avi'],
+    file_extensions=['tif', 'tiff', 'jpeg', 'png', 'gif', 'bmp', 'avi', 'ipynb'],
     icon='https://raw.githubusercontent.com/FAIRmat-NFDI/nomad-north-fiji/main/src/nomad_north_fiji/north_tools/fiji/fiji.png',
     image_pull_policy='Always',
     default_url='/desktop',

@@ -1,6 +1,7 @@
-# nomad-north-fiji
+# nomad-north-fiji: NOMAD NORTH plugin for [fiji](https://fiji.sc/)
 
-NOMAD NORTH plugin for fiji
+`nomad-north-fiji` is a GUI-based NORTH tool offering [`fiji`](https://fiji.sc/), a frequently used extension of the [imagej](https://imagej.net/ij/download.html) image processing and analysis software. The electron microscopy community is a frequent user of `fiji` given its covering set of custom image filters. The original motivation for the `fiji` container was reaching out to electron microscopists working with focus series reconstruction, for which the
+container was configured to offer specific `imagej`/`fiji` plugins. Its multi-community user base means it is kept as a standalone tool, not merged into a technique-specific plugin.
 
 This `nomad` plugin was generated with `Cookiecutter` along with `@nomad`'s [`cookiecutter-nomad-plugin`](https://github.com/FAIRmat-NFDI/cookiecutter-nomad-plugin) template.
 
